@@ -1,0 +1,27 @@
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+int time;
+clrscr();
+printf("enter the time");
+scanf("%d",&time);
+if(time==8)
+{
+printf("now is breakfast time");
+}
+else if(time==13)
+{
+printf("now is lunch time");
+}
+else if(time==21)
+{
+printf("now is diner time");
+}
+else
+{
+printf("now is not for eatineg time");
+}
+getch();
+return 0;
+}
